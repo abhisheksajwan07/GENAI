@@ -2,7 +2,6 @@ import express from "express";
 import cors from "cors";
 import { loadEnv } from "./env";
 import { askStructured } from "./ask-core";
-import { json } from "zod";
 
 loadEnv();
 
